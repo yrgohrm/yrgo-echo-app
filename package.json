@@ -2,23 +2,24 @@
   "name": "yrgo-echo-app",
   "version": "1.0.0",
   "description": "Echoes query string and post data",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint -c tslint.json src/**/*.ts",
-  },
   "author": "Hampus Ram <hampus.ram@educ.goteborg.se>",
   "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -c tslint.json src/**/*.ts"
+  },
   "dependencies": {
     "@netlify/functions": "^2.6.0",
     "tslint": "^6.1.3",
     "typescript": "^5.3.3"
   },
+  "devDependencies": {
+    "netlify-cli": "^17.16.2"
+  },
   "files": [
     "./bin/*",
     "./lib/*"
   ],
-  "typings": "./lib/index.d.ts",
-  "devDependencies": {
-    "netlify-cli": "^17.16.2"
-  }
+  "typings": "./lib/index.d.ts"
 }

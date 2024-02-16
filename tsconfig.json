@@ -15,6 +15,7 @@
 		"strictFunctionTypes": true,
 		"strictNullChecks": true,
 		"strictPropertyInitialization": true,
+		"allowImportingTsExtensions": true,
 
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitAny": true,
